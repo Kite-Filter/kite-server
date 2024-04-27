@@ -1,0 +1,28 @@
+{
+  "name": "kite-server",
+  "version": "1.0.0",
+  "description": "Kite Web-Filter Server",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kite-filter/kite-server.git"
+  },
+  "author": "Entrpix",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kite-filter/kite-server/issues"
+  },
+  "homepage": "https://github.com/kite-filter/kite-server#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "express": "^4.19.2"
+  }
+}
